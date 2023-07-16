@@ -3,3 +3,72 @@
     /* padding: 0; */
     font-family: 'Work Sans', sans-serif;
 }
+ul li{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #424242;
+}
+.btn_primary{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    border-radius: 8px;
+    background: #FF900E;
+    margin-top: 30px;
+    border: none;
+}
+
+
+/* -----common css part end----- */
+
+
+
+/* ---header styles part--- */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_title{
+    color:  #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+nav >ul{
+    display: flex;
+}
+nav li{
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+/*----- banner styles part----- */
+
+.banner_content{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner_title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner_dsc{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
+}
+
+.banner img{
+    margin-top: 50px;
+
+}
